@@ -1,0 +1,41 @@
+
+body{
+  background: hsl(218, 28%, 13%);
+}
+.wrapper{
+  height: 100vh;
+  background: hsl(218, 28%, 13%);
+  color: white;
+  line-height: 1.5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+#imgWall{
+  width:700px;
+  height:450px;
+}
+
+footer{
+background: hsl(216, 53%, 9%);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+  footer a:hover{
+    text-decoration: none;
+    color: white;
+  }
+.centered-form{
+  margin-top: 60px;
+}
+
+.centered-form .panel{
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}
